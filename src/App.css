@@ -1,0 +1,64 @@
+
+.photo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  background-color: hsl(0, 0%, 12%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.photo{
+  border-radius: 100px;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 100px;
+}
+
+.headline{
+  color: hsl(0, 0%, 100%);
+  margin:0px 25px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headline2{
+  color:hsl(75, 94%, 57%);
+  margin: 0px 45px;
+  font-size:medium;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.p{
+  margin: 10px 10px;
+  color:hsl(0, 0%, 100%) ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%)  ;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+  border-radius: none;
+}
+
+.btn:hover{
+  filter: drop-shadow(0 0 2em hsl(75, 94%, 57%));
+}
